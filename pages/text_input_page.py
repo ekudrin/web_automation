@@ -1,4 +1,4 @@
-from base.BasePage import BasePage
+from base.base_page import BasePage
 from config.links import Links
 
 class TextInputPage(BasePage):
