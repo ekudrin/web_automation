@@ -2,7 +2,7 @@ import time
 import pytest
 from selenium.webdriver.common.by import By
 
-class TestLoginPage:
+class TextInputPageTests:
 
     def test_valid_login(self,driver):
         driver.get("https://www.saucedemo.com/")
